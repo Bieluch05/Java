@@ -1,19 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title> Proste obliczenia</title>
-<meta charset="utf -8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-<div style="color:red;font-size:50px;">
-<script language="JavaScript">
-var liczba1=prompt("podaj a=" , "");
-	var a_sza=parseFloat(liczba1);
-var liczba2=prompt("podaj b= ", "");
-	var b_sza=parseFloat(liczba2);
-document.write("a="+a_sza+"<br>");
-document.write("b="+b_sza+"<br>");
-document.write("("+a_sza+"+"+b_sza+")^3=");
-document.write(a_sza+"^"+"3+3*"+a_sza+"^2*"+b_sza+"+..."+"=");
-document.write(a_sza*a_sza*a_kow+".......");
-</script>
-</div>
+    <div style="color:red;font-size:50px;">
+    <script lang="JavaScript">
+        var liczba1=prompt("daj liczbe A=","");
+        var A_sza=parseFloat(liczba1);
+        var liczba2=prompt("daj liczbe B=","");
+        var B_sza=parseFloat(liczba2);
+     
+     document.write("A="+A_sza+"<br>");
+     document.write("B"+B_sza+"</br>");
+     document.write("("+A_sza+"+"+B_sza+")^3=");
+     document.write(A_sza+"^"+"3+3*"+A_sza+"^2*"+B_sza+"+3*"+A_sza+"*"+B_sza+"^2+"+B_sza+"^3=");
+
+     document.write(A_sza*A_sza*A_sza+"+"+3*A_sza*A_sza*B_sza+"+"+3*A_sza*B_sza*B_sza+"+"+B_sza*B_sza*B_sza+"</br>");
+    </script>
+    </div>
+</body>
+</html>
