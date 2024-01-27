@@ -1,0 +1,27 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function mebel(marka,rodzaj,wysokosc)
+{
+this.marka=marka;
+this.rodzaj=rodzaj;
+this.wysokosc=wysokosc;
+}
+ mebel.prototype.wypisz = function ()
+ {
+ alert(this.marka + ' ' + this.rodzaj+ ' ' + this.wysokosc);
+ };
+var mebel1 = new mebel("IKEA", "Stol", "100 cm");
+var mebel2 = new mebel('AGATA', 'Szafa', '250 cm');
+mebel1.wypisz(); 
+mebel2.wypisz();
+ document.write("Dostęp do szczegółów"+"<br>");
+ document.write("Mebel pierwszy"+" &nbsp;Marka: "+mebel1.marka+" &nbsp;rodzaj: "+mebel1.rodzaj+" &nbsp;wysokosc: "+mebel1.wysokosc+"</br>");
+ document.write("Mebel drugi"+" &nbsp;Marka: "+mebel2.marka+" &nbsp;rodzaj: "+mebel2.rodzaj+" &nbsp;wysokosc: "+mebel2.wysokosc);
+ </script>
+ </head>
+<body>
+<br>
+ Programowanie obiektowe 
+</body>
+</html>
