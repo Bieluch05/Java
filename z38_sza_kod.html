@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <title></title>
+</head>
+<body>
+   <textarea rows="33" cols="70">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>z38</title>
+        
+    </head>
+    <body>
+       <input type="button" name="nazwisko_ucznia" value="Oblicz" onclick="fun_sza()" />
+       <script>
+        function fun_sza(){
+           var liczba=prompt("Podaj liczbe","");
+           var x_sza=parseFloat(liczba);
+           if(x_sza % 2 === 0){
+               document.write('<p style=\"color:red; size: 3;\">Liczba jest parzysta</p></br>');
+           }
+           else{
+                   
+               document.write('<p style=\"color:silver; size: 5;\">Liczba jest nie parzysta</p></br>');
+               }
+           
+        }
+       </script>
+    </body>
+    </html>
+   </textarea>
+</body>
+</html>
