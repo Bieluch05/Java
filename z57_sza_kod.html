@@ -10,14 +10,17 @@
         <body>
         <div style="color:red;font-size:50px;">
         <script language="JavaScript">
-        n_sza = prompt("podaj liczbe","");
-        silnia_sza = 1
         
-            for(i_s=1;i_s<=n_sza;i_s++)
+            for(i_s=22;i_s<=29;i_s++)
             {
-                silnia_sza = silnia_sza * i_s
+                root2 = Math.sqrt(i_s)
+                root4 = Math.sqrt(root2)
+                root2 = root2.toFixed(2)
+                root4 = root4.toFixed(2)
+                document.write("i="+i_s+"   pierw_2("+i_s+")="+root2+"        pierw_4("+i_s+")="+root4+"<br>")
             }
-            document.write(silnia_sza)
+        
+        
         
         </script>
         </div>
